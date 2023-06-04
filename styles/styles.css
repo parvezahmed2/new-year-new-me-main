@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+}
+
+/* header section -------------------------------------------- */
+.header-container{
+    background-image: url(/images/banner/new1.png);
+    width: 1535px;
+    height: 700px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+     
+}
+.header-info{
+    width: 500px;
+    text-align: right;
+    margin-right: 200px;
+}
+ 
+.info-title{
+    font-weight: 700;
+font-size: 65px;
+margin-bottom: 24px;
+color: #151414;
+}
+.info-details{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-bottom: 30px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 25px ;
+}
+
+/* section 1st information ------------------------------ */
+.failure-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.failure-information{
+    width: 350px;
+    margin-right: 150px;
+}
+.info-title{
+    color: #151414;
+    font-weight: 700;
+font-size: 40px;
+
+}
+.info-summary{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-bottom: 10px;
+}
+ul li{
+    color: #444343;
+    margin-bottom: 5px;
+}
+
+
+/* our planing --------------------------- */
+.our-plans{
+     text-align: center;
+     margin-top: 200px;
+}
+.sub-container{
+    display: flex;
+    justify-content: center;
+
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-top: 40px;
+}
+.plan-emp{
+    width: 180px;
+}
+
+
+/* contact section ------------------------------------- */
+.contac-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.our-contact{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 800px;
+    height: 200px; 
+    border-radius: 5px;
+    
+    background: linear-gradient(90deg, #873617 0%, rgba(151, 179, 106, 0) 100%);
+}
+.contac-us{
+    width: 350px;
+    padding-left: 50px;
+}
+.contact-title{
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 30px;
+margin-bottom: 20px;
+}
+.call-btn{
+    color: #F15B22;
+    font-weight: 600;
+font-size: 20px;
+background: #FFFFFF;
+border-radius: 5px; 
+border: 0;
+padding: 15px 18px;
+}
+
+/* our acibmant  */
+.our-acibmant{
+    justify-content: center;   
+}
+.acimant-us {
+    text-align: center;
+}
+ #acib-title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.our-acibmant{
+    background: linear-gradient(90deg, #45821b82 0%, rgba(35, 92, 190, 0.502) 100%);
+}
+
+/* footer section ---------------------------------- */
+.footer-main{
+    background: #151414;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    margin-top: 100px;
+}
+.footer-main{
+    display: flex;
+}
+.footer-contact{
+    width: 400px; 
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+.footer-title{
+    font-weight: 700;
+font-size: 30px;
+margin-bottom: 22px;
+}
+.footar-discription{
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 20px;
+}
+.footar-email{
+    margin-bottom: 10px;
+}
+.footar-phone{
+    margin-bottom: 20px;
+}
+.footer-icone img{
+    margin-right: 8px;
+}
+
+/* footar  subscibe section  */
+.subscribe-container{
+    width: 400px;
+    margin-left: 400px;
+    color: #FFFFFF;
+}
+#input-email{
+    background: #151414;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
